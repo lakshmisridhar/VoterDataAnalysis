@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/VoterDataWebApp">
+    
+    <Resource auth="Container" name="jdbc/project1b_db" driverClassName="com.mysql.jdbc.Driver" 
+              type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/project1b_db" 
+              username="root" password="sesame"
+              logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000"  
+              removeAbandoned="true" removeAbandonedTimeout="60" />
+</Context>

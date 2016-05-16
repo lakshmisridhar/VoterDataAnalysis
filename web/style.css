@@ -1,0 +1,274 @@
+
+/*Common CSS***************************/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 30%;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+body {
+    min-height: 100%;
+    margin:0 auto;
+
+    clear: both;
+}
+
+
+
+#back_to_page{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+h1 {
+    color: navy;
+    width: 100%;
+    margin-top: 0px;
+    padding: .5em;
+       
+}
+#img1{
+   //position: absolute;
+   float: left;
+  // top: 50%;
+   //left: 50%;
+    width: 375px;
+   height: 200px;
+   margin-top: 0.5em; /* Half the height */
+  // margin-bottom:  250px; 
+  margin-left: 1em; /* Half the width */
+}
+#img2{
+   //position: absolute;
+   float: right;
+  // top: 50%;
+   //left: 50%;
+   width: 375px;
+   height: 200px;
+   margin-top: 0.5em; /* Half the height */
+  // margin-bottom:  250px; 
+  margin-right: 1em; /* Half the width */
+}
+label {
+    display: inline-block;
+    text-align:right;
+    width:115px;
+}
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    margin-bottom: 10px;
+
+    /* To give the same size to all text field */
+    width: 370px;
+    height:2.5em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #3385FF;
+}
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+#submit_button {
+    /* To position the buttons to the same position of the text fields */
+    /* same size as the label elements */
+    margin-left: 120px;
+    background-color: #475D9F;
+    color: white;
+    border-color: #475D9F;
+    border-radius: 0.5em;
+}
+
+nav{
+    background-color: #f1f1f1;
+    margin:0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+
+}
+
+.count{
+    color:blue;
+}
+
+#page_name{
+    margin-top: 0px;
+    padding: .5em;
+    background-color: #D3D3CF;
+}
+
+/* header.jsp ********************************/
+
+nav#header_menu ul li a {
+
+    color: black;
+
+    display: block;
+    line-height: 2em;
+
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+
+
+
+nav#menu {
+    color: black;
+    background-color: #CCFFCC;
+    font-weight: bold;
+    float:left;
+    display: block;
+    line-height: 3em;
+    margin: 20px ;
+    margin-bottom: 100px;
+    border : 1px solid black;
+    
+    text-decoration: none;
+    width:150px;
+
+}
+
+
+
+nav#header_menu ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+
+nav .left{
+    float:left;
+    padding: 1em 1em;
+    font-weight: bold;
+    font-size:20px;
+    color: #009933;
+
+}
+
+nav .right{
+    float:right;
+    margin-right:2em;
+
+}
+
+
+
+/* footer.jsp *******************************/
+
+.copyright{
+    position:fixed;
+    bottom:0;
+
+    margin-top: 100px;;
+    width: 100%;
+
+    padding: 20px 20px;
+    background: #A7D996;
+    text-align:center;
+    color:black;
+}
+
+/* about.jsp ********************************/
+
+#how{
+    text-align: left;
+    margin: 0 auto;
+
+    margin-bottom: 100px;
+
+    color:black;
+    margin-top: 100px;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+
+/* aboutl.jsp *********************************/
+
+nav#menu ul li{
+    display:block;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-left: 1em;
+}
+
+nav#menu ul li a {
+
+    color: black;
+    text-align: left;
+
+    display: block;
+    text-decoration: none;
+}
+
+.main{
+
+    margin: 20px 40px 100px 20px;
+    text-align:left;
+    color:black;
+    float:left;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+h1{
+    background: #A7D996;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
